@@ -1,0 +1,27 @@
+     escreval("Pizza de peperoni -> 45,00 R$ ")
+      escreval("Ingredientes: Mussarela e Salame peperoni")
+      escreval("")
+      escreval("bebidas")
+      escreval("Coca-cola Lata -> 5,00 R$ ")
+      escreval("Refrigerante Coca-cola 350ml")
+      escreval("")
+      escreval("Dolly Guaraná Garrafa -> 8,50 R$ ")
+      escreval("Refrigerante Dolly Sabor guaraná, Garrafa 2 Litros")
+      escreval("")
+      escreval("Suco de Laranja -> 5,50 R$ ")
+      escreval("Suco natural sabor Laranja, 400ml")
+      escreval("")
+escreval  ("")
+escreval ("Pressione ENTER para retomar ao MENU")
+leia (retmenu)
+limpanela
+menu()
+fimprocedimento
+
+procedimento bucar_usuario()
+inicio
+status <- 0
+i <- 0
+limpanela
+escreva("Digite o numero de telefone: ")
+Leia(fontes)
